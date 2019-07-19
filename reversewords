@@ -2,5 +2,5 @@
 def reverse(string): 
     string = "".join(reversed(string)) 
     return string 
-s=input()
+s=str(input())
 print(reverse(s))
