@@ -1,6 +1,0 @@
-#write a program to reverse individual words in a sentence
-def reverse(string): 
-    string = "".join(reversed(string)) 
-    return string 
-s=str(input())
-print(reverse(s))
